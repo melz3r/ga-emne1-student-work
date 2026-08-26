@@ -6,3 +6,5 @@ total_price = price + tip
 print(f"Prisen for 1 stk {item} er kr {price:.2f},-")
 print(f"15% tips av kr {price:.2f} er kr {tip:.2f},-")
 print(f"Totalkostnad er {total_price:.2f},-. ")
+
+print(f"Er totalen lik pris pluss tips? {total_price == price + tip}")
