@@ -1,7 +1,3 @@
-from pathlib import Path
-
-data_folder = Path(__file__).parent.parent / "data"
-
 #int("two") - returns ValueError, as "two" can never be an integer
 print(2)
 
